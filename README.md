@@ -77,7 +77,7 @@ The third notebook includes:
 - Logistic Regression, Random Forest, and Histogram Gradient Boosting;
 - SMOTE for class imbalance;
 - RFECV feature selection;
-- GridSearchCV and RandomizedSearchCV;
+- optional randomized hyperparameter search; exhaustive grid search omitted because of local computational constraints;
 - confusion matrices, classification reports, and ROC AUC;
 - permutation importance and SHAP-based interpretation.
 
