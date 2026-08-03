@@ -1,0 +1,39 @@
+# Kaggle data and generated datasets
+data/*
+!data/.gitkeep
+reports/
+*.csv
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.joblib
+*.7z
+*.zip
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
